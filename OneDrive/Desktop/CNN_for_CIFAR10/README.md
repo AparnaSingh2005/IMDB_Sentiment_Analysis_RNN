@@ -1,40 +1,49 @@
-## CIFAR-10 Image Classification using CNN
-A simple implementation of a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into 10 categories.
+# CNN for CIFAR-10 Image Classification
 
-## Overview
+A Convolutional Neural Network (CNN) built using TensorFlow/Keras to classify images from the CIFAR-10 dataset.
+This project demonstrates deep learning fundamentals including convolution layers, pooling, activation functions, regularization, model training, and performance evaluation.
 
-This project demonstrates:
+## Dataset
 
---Image preprocessing and normalization
+The model is trained on the **CIFAR-10** dataset:
+- 60,000 32x32 RGB images
+- 10 object classes
+- 50,000 training images
+- 10,000 testing images
 
---CNN model building
-
---Model training and evaluation
-
--- Accuracy and loss visualization
-
-## Dataset:
-
-CIFAR-10 consists of:
-
-~ 60,000 RGB images (32×32)
-
-~ 50,000 training images
-
-~ 10,000 test images
-
-~ 10 classes
-
-## Classes:
-
- Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
+Classes:
+Airplane | Automobile | Bird | Cat | Deer | Dog | Frog | Horse | Ship | Truck
 
 ## Model Architecture
 
-Conv2D → ReLU → MaxPooling
+The CNN architecture includes:
 
-Conv2D → ReLU → MaxPooling
+- Conv2D Layers
+- ReLU Activation
+- MaxPooling Layers
+- Dropout (Regularization)
+- Fully Connected Dense Layers
+- Softmax Output Layer
 
-Flatten → Dense → Dropout → Softmax (10 classes)
+Architecture Flow:
+
+Input → Conv2D → ReLU → MaxPool → Conv2D → ReLU → MaxPool → Flatten → Dense → Dropout → Softmax
+
+
+## Model Performance 
+**Test Accuracy:** **74.71%**  
+
+Achieving 74.71% accuracy demonstrates strong baseline CNN implementation on CIFAR-10 without transfer learning.
+
+## Tech Stack
+
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
+
 
 
