@@ -4,9 +4,13 @@ A simple implementation of a Convolutional Neural Network (CNN) to classify imag
 ## Overview
 
 This project demonstrates:
+
 --Image preprocessing and normalization
+
 --CNN model building
+
 --Model training and evaluation
+
 -- Accuracy and loss visualization
 
 ## Dataset:
