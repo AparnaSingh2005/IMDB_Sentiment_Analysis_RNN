@@ -1,4 +1,4 @@
-##CIFAR-10 Image Classification using CNN
+## CIFAR-10 Image Classification using CNN
 A simple implementation of a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into 10 categories.
 
 ##Overview
