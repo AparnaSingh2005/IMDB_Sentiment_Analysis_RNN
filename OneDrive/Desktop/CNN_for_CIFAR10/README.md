@@ -1,22 +1,17 @@
-CIFAR-10 Image Classification using CNN
-
+##CIFAR-10 Image Classification using CNN
 A simple implementation of a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into 10 categories.
 
-Overview
+##Overview
 
 This project demonstrates:
+#Image preprocessing and normalization
+#CNN model building
+#Model training and evaluation
+#Accuracy and loss visualization
 
-Image preprocessing and normalization
+##Dataset
 
-CNN model building
-
-Model training and evaluation
-
-Accuracy and loss visualization
-
-Dataset
-
-CIFAR-10 consists of:
+#CIFAR-10 consists of:
 
 60,000 RGB images (32×32)
 
