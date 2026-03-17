@@ -4,18 +4,17 @@ A simple implementation of a Convolutional Neural Network (CNN) to classify imag
 ## Overview
 
 This project demonstrates:
-# Image preprocessing and normalization
-# CNN model building
-# Model training and evaluation
-# Accuracy and loss visualization
+--Image preprocessing and normalization
+--CNN model building
+--Model training and evaluation
+-- Accuracy and loss visualization
 
 ## Dataset:
-
-## CIFAR-10 consists of:
-# 60,000 RGB images (32×32)
-# 50,000 training images
-# 10,000 test images
-# 10 classes
+CIFAR-10 consists of:
+-- 60,000 RGB images (32×32)
+-- 50,000 training images
+-- 10,000 test images
+-- 10 classes
 
 ## Classes:
 # Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
