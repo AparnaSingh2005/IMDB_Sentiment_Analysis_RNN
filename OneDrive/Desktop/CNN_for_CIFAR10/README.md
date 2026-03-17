@@ -14,19 +14,27 @@ This project demonstrates:
 -- Accuracy and loss visualization
 
 ## Dataset:
+
 CIFAR-10 consists of:
--- 60,000 RGB images (32×32)
--- 50,000 training images
--- 10,000 test images
--- 10 classes
+
+~ 60,000 RGB images (32×32)
+
+~ 50,000 training images
+
+~ 10,000 test images
+
+~ 10 classes
 
 ## Classes:
-# Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
+
+ Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
 
 ## Model Architecture
 
-# Conv2D → ReLU → MaxPooling
-# Conv2D → ReLU → MaxPooling
-# Flatten → Dense → Dropout → Softmax (10 classes)
+Conv2D → ReLU → MaxPooling
+
+Conv2D → ReLU → MaxPooling
+
+Flatten → Dense → Dropout → Softmax (10 classes)
 
 
